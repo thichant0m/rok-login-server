@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 
-VALID_USERS = ["quyet","tu","huy","user01"]
+VALID_USERS = ["quyet","tu","huy","user01","quan","quang"]
 
 @app.route("/login", methods=["POST"])
 def login():

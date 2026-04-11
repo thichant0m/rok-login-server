@@ -4,7 +4,10 @@ app = Flask(__name__)
 
 USERS = {
     "admin": "123456",
-    "testuser": "password123"
+    "testuser": "password123",
+    "test01":"test01",
+    "test02":"test01",
+    "test03":"test01"
 }
 
 # Thêm một biến để lưu danh sách các tài khoản đang online và mã máy của họ

@@ -5,7 +5,8 @@ app = Flask(__name__)
 USERS = {
     "admin": "123456",
     "testuser": "password123",
-    "user01": "thichfarmgem"
+    "user01": "thichfarmgem",
+    "haica":"thichfarmgem"
 }
 
 # Biến lưu danh sách tài khoản đang online và thông tin thiết bị đang chiếm quyền
